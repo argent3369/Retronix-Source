@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AntiAntiAim.cpp" />
+    <ClCompile Include="Autowall.cpp" />
+    <ClCompile Include="Backtracking Rage.cpp" />
+    <ClCompile Include="Chams.cpp" />
+    <ClCompile Include="Controls.cpp" />
+    <ClCompile Include="CRC32.cpp" />
+    <ClCompile Include="DLLMain.cpp" />
+    <ClCompile Include="Dumping.cpp" />
+    <ClCompile Include="LagComp.cpp" />
+    <ClCompile Include="ESP.cpp" />
+    <ClCompile Include="Globalshhh.cpp" />
+    <ClCompile Include="Hacks.cpp" />
+    <ClCompile Include="Hooks.cpp" />
+    <ClCompile Include="INJ\ReflectiveLoader.cpp" />
+    <ClCompile Include="Interfaces.cpp" />
+    <ClCompile Include="LegitBot.cpp" />
+    <ClCompile Include="MathFunctions.cpp" />
+    <ClCompile Include="MetaInfo.cpp" />
+    <ClCompile Include="MiscHacks.cpp" />
+    <ClCompile Include="NetVarManager.cpp" />
+    <ClCompile Include="NetVars.cpp" />
+    <ClCompile Include="Offsets.cpp" />
+    <ClCompile Include="RageBot.cpp" />
+    <ClCompile Include="RenderManager.cpp" />
+    <ClCompile Include="Resolver.cpp" />
+    <ClCompile Include="SpoofedConvar.cpp" />
+    <ClCompile Include="tinyxml2.cpp" />
+    <ClCompile Include="UTIL Functions.cpp" />
+    <ClCompile Include="Utilities.cpp" />
+    <ClCompile Include="Visual.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="GUI.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AntiAntiAim.h" />
+    <ClInclude Include="AntiLeak.h" />
+    <ClInclude Include="Autowall.h" />
+    <ClInclude Include="Backtracking Rage.h" />
+    <ClInclude Include="backtracking.h" />
+    <ClInclude Include="BaseClient.h" />
+    <ClInclude Include="bspflags.h" />
+    <ClInclude Include="Chams.h" />
+    <ClInclude Include="ClientRecvProps.h" />
+    <ClInclude Include="CommonIncludes.h" />
+    <ClInclude Include="Controls.h" />
+    <ClInclude Include="CRC32.h" />
+    <ClInclude Include="DLLMain.h" />
+    <ClInclude Include="Dumping.h" />
+    <ClInclude Include="GrenadePrediction.h" />
+    <ClInclude Include="LagComp.h" />
+    <ClInclude Include="EngineClient.h" />
+    <ClInclude Include="Entities.h" />
+    <ClInclude Include="ESP.h" />
+    <ClInclude Include="Globalshhh.h" />
+    <ClInclude Include="GlowManager.h" />
+    <ClInclude Include="Hacks.h" />
+    <ClInclude Include="hitmarker.h" />
+    <ClInclude Include="Proxies.h" />
+    <ClInclude Include="Resolver.h" />
+    <ClInclude Include="singleton.hpp" />
+    <ClInclude Include="Skins.h" />
+    <ClInclude Include="winwindef.h" />
+    <ClInclude Include="Hooks.h" />
+    <ClInclude Include="INJ\ReflectiveDLLInjection.h" />
+    <ClInclude Include="INJ\ReflectiveLoader.h" />
+    <ClInclude Include="Interfaces.h" />
+    <ClInclude Include="LegitBot.h" />
+    <ClInclude Include="Materials.h" />
+    <ClInclude Include="MathFunctions.h" />
+    <ClInclude Include="MetaInfo.h" />
+    <ClInclude Include="MiscClasses.h" />
+    <ClInclude Include="MiscDefinitions.h" />
+    <ClInclude Include="MiscHacks.h" />
+    <ClInclude Include="NetVars.h" />
+    <ClInclude Include="Offsets.h" />
+    <ClInclude Include="RageBot.h" />
+    <ClInclude Include="RenderManager.h" />
+    <ClInclude Include="SDK.h" />
+    <ClInclude Include="Surface.h" />
+    <ClInclude Include="tinyxml2.h" />
+    <ClInclude Include="UTIL Functions.h" />
+    <ClInclude Include="Utilities.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector2D.h" />
+    <ClInclude Include="Visuals.h" />
+    <ClInclude Include="GUI.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="hooks.backup" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{57e73bd1-1f58-401f-9ed6-2ad8823fb39b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Hacks">
+      <UniqueIdentifier>{2dca5bbb-950f-4a61-8304-5bdc7bc6c45d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
